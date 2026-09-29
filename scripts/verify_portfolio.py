@@ -1,11 +1,11 @@
 """One entry: portable code tests or full existing-cluster validation. Never downloads data."""
-import argparse,ast,datetime as dt,gzip,hashlib,json,pathlib,subprocess,sys,time,uuid
+import argparse,ast,datetime as dt,gzip,hashlib,json,os,pathlib,subprocess,sys,time,uuid
 ROOT=pathlib.Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts')]
 from candidate_files import scan
 p=argparse.ArgumentParser();p.add_argument('--mode',choices=['portable','full'],default='portable');a=p.parse_args()
 (ROOT/'build').mkdir(exist_ok=True)
 out=ROOT/'build/validation'/('v'+dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+uuid.uuid4().hex[:8]);out.mkdir(parents=True)
-r={'mode':a.mode,'passed':False,'checks':{},'remote_ci_executed':False,'output':str(out),'started_at':dt.datetime.now(dt.timezone.utc).isoformat()}
+r={'mode':a.mode,'passed':False,'checks':{},'remote_ci_executed':os.environ.get('GITHUB_ACTIONS')=='true','output':str(out),'started_at':dt.datetime.now(dt.timezone.utc).isoformat()}
 def save():
     temp=out/'result.next.json'
     temp.write_text(json.dumps(r,indent=2))

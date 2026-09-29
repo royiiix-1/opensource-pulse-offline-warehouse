@@ -9,5 +9,6 @@ print('Repository observation versions:',format(r['tables']['dim_repository_scd2
 for x in r['performance']:
     print(x['experiment'],x['variant'],'median_seconds=',round(x['median_seconds'],3),'n=',x['n'],'files=',x['scan_files'])
 print('Failure recovery:',r['failure_recovery']['recovered_complete'])
-print('Remote CI executed:',r['remote_ci_executed'])
+print('Remote CI executed at original evidence capture:',r['remote_ci_executed'])
+print('For current CI status, see the GitHub Actions badge.')
 print('For live validation use scripts/verify_portfolio.py --mode full in the configured WSL environment.')
