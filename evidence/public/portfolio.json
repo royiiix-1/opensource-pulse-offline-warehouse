@@ -1,0 +1,196 @@
+{
+  "scope": "Sanitized aggregate evidence; original logs remain local. Not a remote CI result.",
+  "source_reports": [
+    {
+      "path": "evidence/M1_SUMMARY.json",
+      "sha256": "17200430cd54f9dcc7501e9af6815a54cb74183b0f92d0504d530f62e8dfd876",
+      "passed": true
+    },
+    {
+      "path": "evidence/M2_SUMMARY.json",
+      "sha256": "2b1933c37b33a71ea7f25f5a96366deb98de4d6f36563e637a0a1b6450398b56",
+      "passed": true
+    },
+    {
+      "path": "evidence/M3_SUMMARY.json",
+      "sha256": "7ff4ae28c0fcef63edc8cf44a31ed27c68495a872e2fae378d0574d885d5a6bd",
+      "passed": true
+    },
+    {
+      "path": "evidence/M4_SUMMARY.json",
+      "sha256": "f814378fd0916a1f2954edce754a8a223d1bc3d5a0d7722b76d911294f511057",
+      "passed": true
+    }
+  ],
+  "dates": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+  ],
+  "distinct_events": 29804303,
+  "tables": {
+    "dim_repository_scd2": 2975375,
+    "dwd_event": 29804303,
+    "dws_organisation_daily": 3594146,
+    "dws_contributor_weekly": 1974453,
+    "ads_contributor_retention": 1
+  },
+  "performance": [
+    {
+      "experiment": "A_date",
+      "variant": "all_dates",
+      "n": 3,
+      "median_seconds": 10.204790845993557,
+      "min_seconds": 9.836473643998033,
+      "max_seconds": 10.828938450009446,
+      "scan_files": 336,
+      "selected_file_bytes": 15715911687,
+      "median_input_bytes": 137231327,
+      "median_shuffle_read_bytes": 253845,
+      "median_shuffle_write_bytes": 253845,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_date",
+      "variant": "one_date",
+      "n": 3,
+      "median_seconds": 1.790765393001493,
+      "min_seconds": 1.781231126995408,
+      "max_seconds": 1.7995455030031735,
+      "scan_files": 48,
+      "selected_file_bytes": 2321381451,
+      "median_input_bytes": 14956358,
+      "median_shuffle_read_bytes": 40318,
+      "median_shuffle_write_bytes": 40318,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_granularity",
+      "variant": "daily_compact",
+      "n": 3,
+      "median_seconds": 0.6417142949940171,
+      "min_seconds": 0.6404214089998277,
+      "max_seconds": 0.6833563660038635,
+      "scan_files": 4,
+      "selected_file_bytes": 61220658,
+      "median_input_bytes": 31162978,
+      "median_shuffle_read_bytes": 3359,
+      "median_shuffle_write_bytes": 3359,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_granularity",
+      "variant": "hourly",
+      "n": 3,
+      "median_seconds": 0.38135428400710225,
+      "min_seconds": 0.37590674999228213,
+      "max_seconds": 0.38963409200368915,
+      "scan_files": 1,
+      "selected_file_bytes": 2635561,
+      "median_input_bytes": 1204946,
+      "median_shuffle_read_bytes": 1678,
+      "median_shuffle_write_bytes": 1678,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "C_compaction",
+      "variant": "hourly",
+      "n": 3,
+      "median_seconds": 1.048497704003239,
+      "min_seconds": 1.015813342994079,
+      "max_seconds": 1.0537070160062285,
+      "scan_files": 24,
+      "selected_file_bytes": 44311936,
+      "median_input_bytes": 19783698,
+      "median_shuffle_read_bytes": 3365,
+      "median_shuffle_write_bytes": 3365,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "C_compaction",
+      "variant": "daily_compact",
+      "n": 3,
+      "median_seconds": 0.8140034759999253,
+      "min_seconds": 0.7898939320002683,
+      "max_seconds": 0.8310352179978509,
+      "scan_files": 4,
+      "selected_file_bytes": 61220658,
+      "median_input_bytes": 28707608,
+      "median_shuffle_read_bytes": 3368,
+      "median_shuffle_write_bytes": 3368,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "B_join",
+      "variant": "sort_merge",
+      "n": 3,
+      "median_seconds": 19.301953480011434,
+      "min_seconds": 18.973843868996482,
+      "max_seconds": 19.695332560993847,
+      "scan_files": 337,
+      "selected_file_bytes": 15716831744,
+      "median_input_bytes": 432023071,
+      "median_shuffle_read_bytes": 393495026,
+      "median_shuffle_write_bytes": 393495026,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "B_join",
+      "variant": "broadcast",
+      "n": 3,
+      "median_seconds": 14.107652421997045,
+      "min_seconds": 13.41937499200867,
+      "max_seconds": 14.224091413998394,
+      "scan_files": 337,
+      "selected_file_bytes": 15716831744,
+      "median_input_bytes": 432023071,
+      "median_shuffle_read_bytes": 1213049,
+      "median_shuffle_write_bytes": 1213049,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    }
+  ],
+  "failure_recovery": {
+    "failed_reports": 2,
+    "old_release": "d20240104e33753a44409d0612d40",
+    "recovered_release": "d20240104e0fa7b1cd2b255c519ea",
+    "same_inputs": true,
+    "failed_release_not_published": true,
+    "recovered_complete": true,
+    "ods_memory_repair": true,
+    "sort_elimination": false
+  },
+  "remote_ci_executed": false,
+  "limitations": [
+    "Single WSL machine; SQLite Airflow development executor",
+    "Seven days cannot mature next-week retention",
+    "Observed names are not complete repository metadata",
+    "Single host, 2 one-core 1 GiB executors; no cold-cache or production SLA claim",
+    "Three measured trials per variant, all retained; no statistical significance claim",
+    "A_date changes input scope; its timing ratio is not equivalent-query speedup",
+    "Layout comparisons use one complete real day projected to five narrow columns",
+    "Task input bytes differ from selected whole-file sizes; metrics scoped to the first collect SQL execution per trial tag"
+  ],
+  "local_validation": {
+    "full_validation_passed": true,
+    "full_checks": 198,
+    "live_checks": 502,
+    "application_id": "application_1790607104350_0061",
+    "yarn_final_status": "SUCCEEDED",
+    "full_report_sha256": "688f6ca55ca76e6adf15ae1f78ef53ecf19c5c77246e5e7f11e21e293009d4b1",
+    "live_report_sha256": "ab54c86ba3c8d81751655b24b7e6f73c505db3fcbaf299b446629c9f46f41f4e",
+    "metastore_reconnect_warnings": 275,
+    "remote_ci_executed": false
+  }
+}

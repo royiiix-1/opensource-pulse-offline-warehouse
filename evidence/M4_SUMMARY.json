@@ -1,0 +1,320 @@
+{
+  "milestone": "M4",
+  "passed": true,
+  "checks": {
+    "spark_checks": true,
+    "budget_guard": true,
+    "published_pointer_unchanged": true,
+    "code_unchanged": true,
+    "three_measured_repeats_each": true,
+    "native_metrics_present": true,
+    "no_measured_task_failures": true,
+    "date_partition_pruning": true,
+    "hour_partition_pruning": true,
+    "A_granularity_exact_saved_results_equal": true,
+    "B_join_exact_saved_results_equal": true,
+    "C_compaction_exact_saved_results_equal": true,
+    "failure_recovery": true
+  },
+  "evidence": "evidence/m4-20260929T095943Z7aebc84d",
+  "application_id": "application_1790607104350_0060",
+  "environment": {
+    "spark.master": "yarn",
+    "spark.executor.memory": "1g",
+    "spark.executor.cores": "1",
+    "spark.executor.instances": "2",
+    "spark.driver.memory": "1g",
+    "spark.sql.adaptive.enabled": "false",
+    "spark.sql.autoBroadcastJoinThreshold": "-1",
+    "spark.sql.shuffle.partitions": "48"
+  },
+  "comparisons": [
+    {
+      "experiment": "A_date",
+      "variant": "all_dates",
+      "n": 3,
+      "median_seconds": 10.204790845993557,
+      "min_seconds": 9.836473643998033,
+      "max_seconds": 10.828938450009446,
+      "scan_files": 336,
+      "selected_file_bytes": 15715911687,
+      "result_sha256": "1d4f2d8a231a5059709dd5ad1fb5738bb24ff57dbee37eb2508f257e804f84ad",
+      "median_input_bytes": 137231327,
+      "median_shuffle_read_bytes": 253845,
+      "median_shuffle_write_bytes": 253845,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_date",
+      "variant": "one_date",
+      "n": 3,
+      "median_seconds": 1.790765393001493,
+      "min_seconds": 1.781231126995408,
+      "max_seconds": 1.7995455030031735,
+      "scan_files": 48,
+      "selected_file_bytes": 2321381451,
+      "result_sha256": "5f426a720b94df0bc64e44ea1823ee56c418b9f1c3e8a9f9efa9bdfa7235f93d",
+      "median_input_bytes": 14956358,
+      "median_shuffle_read_bytes": 40318,
+      "median_shuffle_write_bytes": 40318,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_granularity",
+      "variant": "daily_compact",
+      "n": 3,
+      "median_seconds": 0.6417142949940171,
+      "min_seconds": 0.6404214089998277,
+      "max_seconds": 0.6833563660038635,
+      "scan_files": 4,
+      "selected_file_bytes": 61220658,
+      "result_sha256": "8e04ac36933b8e359544c98f39c5f3b9539a68ed25f0774b3921f95bd192bd40",
+      "median_input_bytes": 31162978,
+      "median_shuffle_read_bytes": 3359,
+      "median_shuffle_write_bytes": 3359,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "A_granularity",
+      "variant": "hourly",
+      "n": 3,
+      "median_seconds": 0.38135428400710225,
+      "min_seconds": 0.37590674999228213,
+      "max_seconds": 0.38963409200368915,
+      "scan_files": 1,
+      "selected_file_bytes": 2635561,
+      "result_sha256": "8e04ac36933b8e359544c98f39c5f3b9539a68ed25f0774b3921f95bd192bd40",
+      "median_input_bytes": 1204946,
+      "median_shuffle_read_bytes": 1678,
+      "median_shuffle_write_bytes": 1678,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "C_compaction",
+      "variant": "hourly",
+      "n": 3,
+      "median_seconds": 1.048497704003239,
+      "min_seconds": 1.015813342994079,
+      "max_seconds": 1.0537070160062285,
+      "scan_files": 24,
+      "selected_file_bytes": 44311936,
+      "result_sha256": "5f426a720b94df0bc64e44ea1823ee56c418b9f1c3e8a9f9efa9bdfa7235f93d",
+      "median_input_bytes": 19783698,
+      "median_shuffle_read_bytes": 3365,
+      "median_shuffle_write_bytes": 3365,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "C_compaction",
+      "variant": "daily_compact",
+      "n": 3,
+      "median_seconds": 0.8140034759999253,
+      "min_seconds": 0.7898939320002683,
+      "max_seconds": 0.8310352179978509,
+      "scan_files": 4,
+      "selected_file_bytes": 61220658,
+      "result_sha256": "5f426a720b94df0bc64e44ea1823ee56c418b9f1c3e8a9f9efa9bdfa7235f93d",
+      "median_input_bytes": 28707608,
+      "median_shuffle_read_bytes": 3368,
+      "median_shuffle_write_bytes": 3368,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "B_join",
+      "variant": "sort_merge",
+      "n": 3,
+      "median_seconds": 19.301953480011434,
+      "min_seconds": 18.973843868996482,
+      "max_seconds": 19.695332560993847,
+      "scan_files": 337,
+      "selected_file_bytes": 15716831744,
+      "result_sha256": "3259759854603551ffdcf165e02eeea36baeb52f3821718238ddb3dbc615f6b2",
+      "median_input_bytes": 432023071,
+      "median_shuffle_read_bytes": 393495026,
+      "median_shuffle_write_bytes": 393495026,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    },
+    {
+      "experiment": "B_join",
+      "variant": "broadcast",
+      "n": 3,
+      "median_seconds": 14.107652421997045,
+      "min_seconds": 13.41937499200867,
+      "max_seconds": 14.224091413998394,
+      "scan_files": 337,
+      "selected_file_bytes": 15716831744,
+      "result_sha256": "3259759854603551ffdcf165e02eeea36baeb52f3821718238ddb3dbc615f6b2",
+      "median_input_bytes": 432023071,
+      "median_shuffle_read_bytes": 1213049,
+      "median_shuffle_write_bytes": 1213049,
+      "median_disk_bytes_spilled": 0,
+      "median_memory_bytes_spilled": 0
+    }
+  ],
+  "layouts": {
+    "hourly": {
+      "files": [
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=0/part-00015-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1777253
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=1/part-00019-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1983624
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=10/part-00018-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1843962
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=11/part-00011-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1825306
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=12/part-00008-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2635561
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=13/part-00016-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2302996
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=14/part-00000-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2101338
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=15/part-00005-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2150382
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=16/part-00017-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2115246
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=17/part-00009-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2102522
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=18/part-00000-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 2188976
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=19/part-00013-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1968727
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=2/part-00006-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1392195
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=20/part-00013-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1896549
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=21/part-00015-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1793376
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=22/part-00006-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1686865
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=23/part-00017-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1635760
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=3/part-00003-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1436544
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=4/part-00006-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1452660
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=5/part-00018-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1472033
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=6/part-00001-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1644252
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=7/part-00003-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1573030
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=8/part-00015-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1646174
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly/source_hour=9/part-00009-d023483a-e313-472c-bb5c-35ab2beb14f3.c000.snappy.parquet",
+          "bytes": 1686605
+        }
+      ],
+      "count": 24,
+      "total_bytes": 44311936,
+      "average_bytes": 1846330.6666666667,
+      "build_seconds": 6.2429030209896155
+    },
+    "daily_compact": {
+      "files": [
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/daily_compact/part-00000-a8b1a26d-02b8-4605-8af7-a5790e8618d1-c000.snappy.parquet",
+          "bytes": 15321045
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/daily_compact/part-00001-a8b1a26d-02b8-4605-8af7-a5790e8618d1-c000.snappy.parquet",
+          "bytes": 15291310
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/daily_compact/part-00002-a8b1a26d-02b8-4605-8af7-a5790e8618d1-c000.snappy.parquet",
+          "bytes": 15269160
+        },
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/daily_compact/part-00003-a8b1a26d-02b8-4605-8af7-a5790e8618d1-c000.snappy.parquet",
+          "bytes": 15339143
+        }
+      ],
+      "count": 4,
+      "total_bytes": 61220658,
+      "average_bytes": 15305164.5,
+      "build_seconds": 4.330808070997591
+    },
+    "small_dimension": {
+      "files": [
+        {
+          "path": "hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/small_dimension/part-00000-7686bdd1-ca9a-464c-8bcc-457bdf9c96ee-c000.snappy.parquet",
+          "bytes": 920057
+        }
+      ],
+      "count": 1,
+      "total_bytes": 920057,
+      "average_bytes": 920057.0
+    }
+  },
+  "failure_recovery": {
+    "failed_reports": 2,
+    "old_release": "d20240104e33753a44409d0612d40",
+    "recovered_release": "d20240104e0fa7b1cd2b255c519ea",
+    "same_inputs": true,
+    "failed_release_not_published": true,
+    "recovered_complete": true,
+    "ods_memory_repair": true,
+    "sort_elimination": false
+  },
+  "limitations": [
+    "Single host, 2 one-core 1 GiB executors; no cold-cache or production SLA claim",
+    "Three measured trials per variant, all retained; no statistical significance claim",
+    "A_date changes input scope; its timing ratio is not equivalent-query speedup",
+    "Layout comparisons use one complete real day projected to five narrow columns",
+    "Task input bytes differ from selected whole-file sizes; metrics scoped to the first collect SQL execution per trial tag"
+  ],
+  "max_conservative_disk_bytes": 137863331272
+}

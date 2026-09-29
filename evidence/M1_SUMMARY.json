@@ -1,0 +1,50 @@
+{
+  "milestone": "M1",
+  "passed": true,
+  "coverage": "PARTIAL",
+  "date": "2024-01-01",
+  "hours": [
+    0
+  ],
+  "checks": {
+    "real_acceptance": true,
+    "spark_fixture": true,
+    "reader_isolation": true,
+    "raw_checksum": true,
+    "quality": true,
+    "yarn_succeeded": true,
+    "current_release_is_recovered": true,
+    "network_reservations_in_budget": true
+  },
+  "acceptance_path": "evidence/m1-acceptance-4d56be834e4442a68d2f625bcf92c1ea/acceptance.json",
+  "fixture_path": "evidence/spark-fixture-r202609281325579cfe32fb/fixture-acceptance.json",
+  "quality_path": "evidence/slice-r2026092813372343dd2d63/quality.json",
+  "active_release": "r2026092813372343dd2d63",
+  "application_id": "application_1790600997568_0008",
+  "table_counts": {
+    "quarantine": 0,
+    "ods_github_event_raw": 153619,
+    "excluded_duplicates": 0,
+    "unknown_events": 0,
+    "dwd_event": 153619,
+    "dwd_push_event": 110370,
+    "dwd_pull_request_event": 9613,
+    "dwd_issue_event": 3964,
+    "dwd_issue_comment_event": 7161,
+    "dwd_release_event": 858,
+    "dim_repository_observed": 59154,
+    "dws_repository_daily": 59125,
+    "ads_repository_activity_trend": 59125,
+    "ads_pr_issue_throughput": 59125
+  },
+  "quality_checks": 17,
+  "network_reserved_bytes": 3688389632,
+  "captured_at": 1790603254.2388,
+  "not_completed": [
+    "24-hour Airflow",
+    "SCD2",
+    "7-day/10M scale",
+    "performance experiments",
+    "M5 portfolio release"
+  ]
+}

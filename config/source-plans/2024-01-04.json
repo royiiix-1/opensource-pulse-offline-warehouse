@@ -1,0 +1,175 @@
+{
+  "date": "2024-01-04",
+  "hours": [
+    {
+      "date": "2024-01-04",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-04-0.json.gz",
+      "bytes": 78414134,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-04-1.json.gz",
+      "bytes": 72343189,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-04-2.json.gz",
+      "bytes": 68953953,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-04-3.json.gz",
+      "bytes": 64568657,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-04-4.json.gz",
+      "bytes": 61447947,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-04-5.json.gz",
+      "bytes": 73580172,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-04-6.json.gz",
+      "bytes": 69594146,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-04-7.json.gz",
+      "bytes": 76837258,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-04-8.json.gz",
+      "bytes": 90114692,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-04-9.json.gz",
+      "bytes": 96795731,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-04-10.json.gz",
+      "bytes": 98385878,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-04-11.json.gz",
+      "bytes": 91592869,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-04-12.json.gz",
+      "bytes": 97961039,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-04-13.json.gz",
+      "bytes": 100724133,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-04-14.json.gz",
+      "bytes": 113267471,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-04-15.json.gz",
+      "bytes": 111897411,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-04-16.json.gz",
+      "bytes": 106470512,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-04-17.json.gz",
+      "bytes": 101117762,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-04-18.json.gz",
+      "bytes": 94871820,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-04-19.json.gz",
+      "bytes": 90024604,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-04-20.json.gz",
+      "bytes": 88049497,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-04-21.json.gz",
+      "bytes": 90710401,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-04-22.json.gz",
+      "bytes": 85141104,
+      "status": 200
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-04-23.json.gz",
+      "bytes": 75335926,
+      "status": 200
+    }
+  ],
+  "all_sizes_known": true,
+  "full_day_compressed_bytes": 2098200306
+}

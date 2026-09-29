@@ -1,0 +1,10 @@
+[project]
+name = "opensource-pulse-offline-warehouse"
+version = "0.1.0"
+description = "GitHub Archive offline warehouse portfolio"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[tool.opensource-pulse]
+runtime-lock = "config/runtime-lock.json"
+deployment = "project-local-wsl2"

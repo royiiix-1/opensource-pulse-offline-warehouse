@@ -1,0 +1,11 @@
+{
+  "full_validation_passed": true,
+  "full_checks": 198,
+  "live_checks": 502,
+  "application_id": "application_1790607104350_0061",
+  "yarn_final_status": "SUCCEEDED",
+  "full_report_sha256": "688f6ca55ca76e6adf15ae1f78ef53ecf19c5c77246e5e7f11e21e293009d4b1",
+  "live_report_sha256": "ab54c86ba3c8d81751655b24b7e6f73c505db3fcbaf299b446629c9f46f41f4e",
+  "metastore_reconnect_warnings": 275,
+  "remote_ci_executed": false
+}

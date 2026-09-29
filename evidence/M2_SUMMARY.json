@@ -1,0 +1,146 @@
+{
+  "milestone": "M2",
+  "passed": true,
+  "checks": {
+    "airflow_acceptance": true,
+    "current_model_digest": true,
+    "original_missing_case_failed": true,
+    "complete_hours": true,
+    "all_stage_quality": true,
+    "native_gate_retry": true,
+    "successful_builds_not_retried": true,
+    "yarn_success": true,
+    "network_in_budget": true
+  },
+  "date": "2024-01-01",
+  "coverage": "COMPLETE",
+  "raw_lines": 3879843,
+  "tables": {
+    "quarantine": {
+      "rows": 0,
+      "partitions": 0
+    },
+    "ods_github_event_raw": {
+      "rows": 3879843,
+      "partitions": 24
+    },
+    "excluded_duplicates": {
+      "rows": 6,
+      "partitions": 3
+    },
+    "unknown_events": {
+      "rows": 0,
+      "partitions": 0
+    },
+    "dwd_event": {
+      "rows": 3879837,
+      "partitions": 1
+    },
+    "dwd_push_event": {
+      "rows": 2649844,
+      "partitions": 1
+    },
+    "dwd_pull_request_event": {
+      "rows": 277868,
+      "partitions": 1
+    },
+    "dwd_issue_event": {
+      "rows": 47917,
+      "partitions": 1
+    },
+    "dwd_issue_comment_event": {
+      "rows": 142170,
+      "partitions": 1
+    },
+    "dwd_release_event": {
+      "rows": 20112,
+      "partitions": 1
+    },
+    "dim_repository_observed": {
+      "rows": 590107,
+      "partitions": 0
+    },
+    "dws_repository_daily": {
+      "rows": 587787,
+      "partitions": 1
+    },
+    "ads_repository_activity_trend": {
+      "rows": 587787,
+      "partitions": 1
+    },
+    "ads_pr_issue_throughput": {
+      "rows": 587787,
+      "partitions": 1
+    }
+  },
+  "release": "d202401012ef34518597d9e48f88b",
+  "acceptance": "evidence/m2-acceptance-1af07e4e79224394a7547ae3629197d9/acceptance.json",
+  "missing_case_seed": "evidence/m2-acceptance-159c07ce9081492d9e685e49e9597483/acceptance.json",
+  "operational_revisions": [
+    "evidence/m2-operational-resume/revision.json",
+    "evidence/m2-metadata-resume/revision.json"
+  ],
+  "stage_applications": [
+    {
+      "id": "application_1790607104350_0012",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-relocate",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790613438806,
+      "finishedTime": 1790613465421
+    },
+    {
+      "id": "application_1790607104350_0009",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-quality",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790612365507,
+      "finishedTime": 1790612411833
+    },
+    {
+      "id": "application_1790607104350_0007",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-dws",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790612141081,
+      "finishedTime": 1790612216968
+    },
+    {
+      "id": "application_1790607104350_0008",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-ads",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790612273951,
+      "finishedTime": 1790612307996
+    },
+    {
+      "id": "application_1790607104350_0005",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-ods",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790609812541,
+      "finishedTime": 1790610098067
+    },
+    {
+      "id": "application_1790607104350_0006",
+      "name": "osp-m2-d202401012ef34518597d9e48f88b-dwd",
+      "state": "FINISHED",
+      "finalStatus": "SUCCEEDED",
+      "applicationType": "SPARK",
+      "startedTime": 1790610173561,
+      "finishedTime": 1790610571075
+    }
+  ],
+  "network_reserved_bytes": 6111608341,
+  "captured_at": 1790614388.969218,
+  "scope_limits": [
+    "single real date; multi-date argument and source-plan tests only",
+    "SQLite SequentialExecutor local development",
+    "SCD2/7-date scale/performance comparisons not complete"
+  ]
+}

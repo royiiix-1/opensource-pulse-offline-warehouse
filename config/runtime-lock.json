@@ -1,0 +1,52 @@
+{
+  "budget_bytes": 6442450944,
+  "artifacts": [
+    {
+      "name": "hadoop",
+      "version": "3.3.6",
+      "url": "https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz",
+      "algorithm": "sha512",
+      "digest": "de3eaca2e0517e4b569a88b63c89fae19cb8ac6c01ff990f1ff8f0cc0f3128c8e8a23db01577ca562a0e0bb1b4a3889f8c74384e609cd55e537aada3dcaa9f8a",
+      "max_bytes": 750000000,
+      "folder": "hadoop-3.3.6"
+    },
+    {
+      "name": "spark",
+      "version": "3.5.7",
+      "url": "https://repo.huaweicloud.com/apache/spark/spark-3.5.7/spark-3.5.7-bin-hadoop3.tgz",
+      "algorithm": "sha512",
+      "digest": "f3b7d5974d746b9aaecb19104473da91068b698a4d292177deb75deb83ef9dc7eb77062446940561ac9ab7ee3336fb421332b1c877292dab4ac1b6ca30f4f2e0",
+      "max_bytes": 420000000,
+      "folder": "spark-3.5.7-bin-hadoop3",
+      "range_bytes": 400914067
+    },
+    {
+      "name": "hive",
+      "version": "3.1.3",
+      "url": "https://repo.huaweicloud.com/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz",
+      "algorithm": "sha256",
+      "digest": "0c9b6a6359a7341b6029cc9347435ee7b379f93846f779d710b13f795b54bb16",
+      "max_bytes": 340000000,
+      "folder": "apache-hive-3.1.3-bin",
+      "range_bytes": 326940667
+    },
+    {
+      "name": "java",
+      "version": "8u472-b08",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u472b08.tar.gz",
+      "algorithm": "sha256",
+      "digest": "5becaa4ac660e844c5a39e2ebc39ff5ac824c37ff1b625af8c8b111dc13c3592",
+      "max_bytes": 110000000,
+      "folder": "jdk8u472-b08"
+    },
+    {
+      "name": "python",
+      "version": "3.11.14+20251014",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20251014/cpython-3.11.14%2B20251014-x86_64-unknown-linux-gnu-install_only.tar.gz",
+      "algorithm": "sha256",
+      "digest": "d0623c777fb89b904b56cd5aba51af29cbb34b1f9d45f0672f90f6dce30fa93e",
+      "max_bytes": 50000000,
+      "folder": "python"
+    }
+  ]
+}

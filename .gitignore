@@ -1,0 +1,29 @@
+build/
+.runtime/
+.volumes/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.json.gz
+*.parquet
+spark-events/
+CODEX_OFFLINE_WAREHOUSE_PROJECT_HANDOFF.md
+derby.log
+config/runtime/
+# Local history is retained but only aggregate summaries/public evidence are candidate material.
+evidence/*
+!evidence/M1_SUMMARY.json
+!evidence/M2_SUMMARY.json
+!evidence/M3_SUMMARY.json
+!evidence/M4_SUMMARY.json
+!evidence/M5_SUMMARY.json
+!evidence/public/
+!evidence/public/**
+# Historical one-off repair helpers remain local; release candidates use maintained entry points.
+scripts/migrate_m2_*.py
+scripts/resume_m2_downstream.*
+scripts/diagnose_partition_location.py
+scripts/prefetch_m2.py
+scripts/verify_ods_memory_repair.py
+scripts/inspect_m4_event_links.py

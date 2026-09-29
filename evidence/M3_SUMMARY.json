@@ -1,0 +1,40 @@
+{
+  "milestone": "M3",
+  "passed": true,
+  "checks": {
+    "seven_complete_dates": true,
+    "at_least_ten_million_distinct_events": true,
+    "model_event_count_matches": true,
+    "model_rerun_noop": true,
+    "network_within_budget": true,
+    "disk_within_budget": true
+  },
+  "distinct_events": 29804303,
+  "dates": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+  ],
+  "model_release": "m2cec05d7e6141168f3ac26ae",
+  "database": "osp3_m2cec05d7e6141168f3ac26ae",
+  "tables": {
+    "dim_repository_scd2": 2975375,
+    "dwd_event": 29804303,
+    "dws_organisation_daily": 3594146,
+    "dws_contributor_weekly": 1974453,
+    "ads_contributor_retention": 1
+  },
+  "network_reserved_bytes": 16836215003,
+  "conservative_disk_bytes": 136092396274,
+  "continuation_evidence": "evidence/m3-continuation-ddb8aaa661504f178efe6fba46da04e9",
+  "limitations": [
+    "Single WSL machine; SQLite Airflow development executor",
+    "Seven days cannot mature next-week retention",
+    "Observed names are not complete repository metadata"
+  ],
+  "completed_at": "2026-09-29T01:19:35.030038+00:00"
+}

@@ -1,0 +1,3 @@
+# M1 acquisition and publication use Python standard library only.
+# PySpark and JVM dependencies are supplied by the SHA-pinned Spark distribution.
+# See config/runtime-lock.json. Airflow dependencies are not installed in M1.
