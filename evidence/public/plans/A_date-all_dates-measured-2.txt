@@ -1,0 +1,40 @@
+== Physical Plan ==
+* HashAggregate (6)
++- Exchange (5)
+   +- * HashAggregate (4)
+      +- * Project (3)
+         +- * ColumnarToRow (2)
+            +- Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event (1)
+
+
+(1) Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event
+Output [4]: [event_type#4, repo_id#5L, actor_id#7L, event_date#17]
+Batched: true
+Location: CatalogFileIndex [hdfs://127.0.0.1:19000/osp-offline/model-releases/m2cec05d7e6141168f3ac26ae/dwd_event]
+ReadSchema: struct<event_type:string,repo_id:bigint,actor_id:bigint>
+
+(2) ColumnarToRow [codegen id : 1]
+Input [4]: [event_type#4, repo_id#5L, actor_id#7L, event_date#17]
+
+(3) Project [codegen id : 1]
+Output [3]: [event_type#4, repo_id#5L, actor_id#7L]
+Input [4]: [event_type#4, repo_id#5L, actor_id#7L, event_date#17]
+
+(4) HashAggregate [codegen id : 1]
+Input [3]: [event_type#4, repo_id#5L, actor_id#7L]
+Keys [1]: [event_type#4]
+Functions [3]: [partial_count(1), partial_sum(cast(repo_id#5L as decimal(38,0))), partial_count(actor_id#7L)]
+Aggregate Attributes [4]: [count#106L, sum#107, isEmpty#108, count#109L]
+Results [5]: [event_type#4, count#110L, sum#111, isEmpty#112, count#113L]
+
+(5) Exchange
+Input [5]: [event_type#4, count#110L, sum#111, isEmpty#112, count#113L]
+Arguments: hashpartitioning(event_type#4, 48), ENSURE_REQUIREMENTS, [plan_id=103]
+
+(6) HashAggregate [codegen id : 2]
+Input [5]: [event_type#4, count#110L, sum#111, isEmpty#112, count#113L]
+Keys [1]: [event_type#4]
+Functions [3]: [count(1), sum(cast(repo_id#5L as decimal(38,0))), count(actor_id#7L)]
+Aggregate Attributes [3]: [count(1)#99L, sum(cast(repo_id#5L as decimal(38,0)))#100, count(actor_id#7L)#101L]
+Results [4]: [event_type#4, count(1)#99L AS events#96L, sum(cast(repo_id#5L as decimal(38,0)))#100 AS repo_sum#97, count(actor_id#7L)#101L AS known_actor_events#98L]
+

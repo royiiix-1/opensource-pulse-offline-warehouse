@@ -17,6 +17,7 @@ try:
     check('python_3_11',sys.version_info[:2]==(3,11))
     with (out/'unit-tests.log').open('wb') as log:
         code=subprocess.run([sys.executable,'-m','unittest','discover','-s','tests','-v'],cwd=ROOT,stdout=log,stderr=subprocess.STDOUT).returncode
+    print((out/'unit-tests.log').read_text(),flush=True)
     check('unit_tests',code==0)
     audit=scan(ROOT);(out/'candidate-scan.json').write_text(json.dumps(audit,indent=2));check('candidate_scan',audit['passed'])
     for f in audit['files']:

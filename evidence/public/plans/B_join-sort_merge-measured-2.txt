@@ -1,0 +1,95 @@
+== Physical Plan ==
+* HashAggregate (16)
++- Exchange (15)
+   +- * HashAggregate (14)
+      +- * Project (13)
+         +- * SortMergeJoin Inner (12)
+            :- * Sort (6)
+            :  +- Exchange (5)
+            :     +- * Project (4)
+            :        +- * Filter (3)
+            :           +- * ColumnarToRow (2)
+            :              +- Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event (1)
+            +- * Sort (11)
+               +- Exchange (10)
+                  +- * Filter (9)
+                     +- * ColumnarToRow (8)
+                        +- Scan parquet  (7)
+
+
+(1) Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event
+Output [3]: [repo_id#5L, repo_sk#16, event_date#17]
+Batched: true
+Location: CatalogFileIndex [hdfs://127.0.0.1:19000/osp-offline/model-releases/m2cec05d7e6141168f3ac26ae/dwd_event]
+PushedFilters: [IsNotNull(repo_sk)]
+ReadSchema: struct<repo_id:bigint,repo_sk:string>
+
+(2) ColumnarToRow [codegen id : 1]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+
+(3) Filter [codegen id : 1]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+Condition : isnotnull(repo_sk#16)
+
+(4) Project [codegen id : 1]
+Output [2]: [repo_id#5L, repo_sk#16]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+
+(5) Exchange
+Input [2]: [repo_id#5L, repo_sk#16]
+Arguments: hashpartitioning(repo_sk#16, 48), ENSURE_REQUIREMENTS, [plan_id=1680]
+
+(6) Sort [codegen id : 2]
+Input [2]: [repo_id#5L, repo_sk#16]
+Arguments: [repo_sk#16 ASC NULLS FIRST], false, 0
+
+(7) Scan parquet 
+Output [2]: [repo_sk#728, owner_name#729]
+Batched: true
+Location: InMemoryFileIndex [hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/small_dimension]
+PushedFilters: [IsNotNull(repo_sk)]
+ReadSchema: struct<repo_sk:string,owner_name:string>
+
+(8) ColumnarToRow [codegen id : 3]
+Input [2]: [repo_sk#728, owner_name#729]
+
+(9) Filter [codegen id : 3]
+Input [2]: [repo_sk#728, owner_name#729]
+Condition : isnotnull(repo_sk#728)
+
+(10) Exchange
+Input [2]: [repo_sk#728, owner_name#729]
+Arguments: hashpartitioning(repo_sk#728, 48), ENSURE_REQUIREMENTS, [plan_id=1689]
+
+(11) Sort [codegen id : 4]
+Input [2]: [repo_sk#728, owner_name#729]
+Arguments: [repo_sk#728 ASC NULLS FIRST], false, 0
+
+(12) SortMergeJoin [codegen id : 5]
+Left keys [1]: [repo_sk#16]
+Right keys [1]: [repo_sk#728]
+Join type: Inner
+Join condition: None
+
+(13) Project [codegen id : 5]
+Output [2]: [repo_id#5L, owner_name#729]
+Input [4]: [repo_id#5L, repo_sk#16, repo_sk#728, owner_name#729]
+
+(14) HashAggregate [codegen id : 5]
+Input [2]: [repo_id#5L, owner_name#729]
+Keys [1]: [owner_name#729]
+Functions [2]: [partial_count(1), partial_sum(cast(repo_id#5L as decimal(38,0)))]
+Aggregate Attributes [3]: [count#769L, sum#770, isEmpty#771]
+Results [4]: [owner_name#729, count#772L, sum#773, isEmpty#774]
+
+(15) Exchange
+Input [4]: [owner_name#729, count#772L, sum#773, isEmpty#774]
+Arguments: hashpartitioning(owner_name#729, 48), ENSURE_REQUIREMENTS, [plan_id=1698]
+
+(16) HashAggregate [codegen id : 6]
+Input [4]: [owner_name#729, count#772L, sum#773, isEmpty#774]
+Keys [1]: [owner_name#729]
+Functions [2]: [count(1), sum(cast(repo_id#5L as decimal(38,0)))]
+Aggregate Attributes [2]: [count(1)#764L, sum(cast(repo_id#5L as decimal(38,0)))#765]
+Results [3]: [owner_name#729, count(1)#764L AS events#762L, sum(cast(repo_id#5L as decimal(38,0)))#765 AS repo_sum#763]
+

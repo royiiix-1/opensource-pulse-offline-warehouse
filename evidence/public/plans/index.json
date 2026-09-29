@@ -1,0 +1,45 @@
+{
+  "plans": [
+    {
+      "sha256": "e2a9f88a7b686c660346caa2655b749c4752159c90c7247cd99a56d6a44242a9",
+      "name": "A_date-all_dates-measured-2",
+      "file": "A_date-all_dates-measured-2.txt"
+    },
+    {
+      "sha256": "853175d44846a376f618f0eabf47b0067ef6492318307d80b8c26fb9dfb60b8b",
+      "name": "A_date-one_date-measured-3",
+      "file": "A_date-one_date-measured-3.txt"
+    },
+    {
+      "sha256": "64ae17b67e1e8bba6431cfb0b9704e0b0565f2df76f8964f4a436d8001092ffc",
+      "name": "A_granularity-daily_compact-measured-2",
+      "file": "A_granularity-daily_compact-measured-2.txt"
+    },
+    {
+      "sha256": "25708fe340d3e025a12d9eec0d4d74770d8b238213dd6f90f1fd3279c2739fc9",
+      "name": "A_granularity-hourly-measured-3",
+      "file": "A_granularity-hourly-measured-3.txt"
+    },
+    {
+      "sha256": "8c6a049cce6767a17adf262c0d67bf7844ef8dda1092dbe1c0d10fdb808a9c34",
+      "name": "C_compaction-hourly-measured-2",
+      "file": "C_compaction-hourly-measured-2.txt"
+    },
+    {
+      "sha256": "03d31b97d622cf69a929fab6619e16b3ffd448cea48d2dba55b7fb459daf1472",
+      "name": "C_compaction-daily_compact-measured-3",
+      "file": "C_compaction-daily_compact-measured-3.txt"
+    },
+    {
+      "sha256": "cef58bcced1bb9472d1037b09897903489fe8f0efb71ab9cf6ccc88469776ef0",
+      "name": "B_join-sort_merge-measured-2",
+      "file": "B_join-sort_merge-measured-2.txt"
+    },
+    {
+      "sha256": "0df5219f01d36f64c053baeba75964542b64d05ce5ed8bac9ca4055232f7291f",
+      "name": "B_join-broadcast-measured-3",
+      "file": "B_join-broadcast-measured-3.txt"
+    }
+  ],
+  "scope": "Representative measured execution plans, copied byte-for-byte; no result row payloads included"
+}

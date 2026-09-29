@@ -1,0 +1,80 @@
+== Physical Plan ==
+* HashAggregate (13)
++- Exchange (12)
+   +- * HashAggregate (11)
+      +- * Project (10)
+         +- * BroadcastHashJoin Inner BuildRight (9)
+            :- * Project (4)
+            :  +- * Filter (3)
+            :     +- * ColumnarToRow (2)
+            :        +- Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event (1)
+            +- BroadcastExchange (8)
+               +- * Filter (7)
+                  +- * ColumnarToRow (6)
+                     +- Scan parquet  (5)
+
+
+(1) Scan parquet spark_catalog.osp3_m2cec05d7e6141168f3ac26ae.dwd_event
+Output [3]: [repo_id#5L, repo_sk#16, event_date#17]
+Batched: true
+Location: CatalogFileIndex [hdfs://127.0.0.1:19000/osp-offline/model-releases/m2cec05d7e6141168f3ac26ae/dwd_event]
+PushedFilters: [IsNotNull(repo_sk)]
+ReadSchema: struct<repo_id:bigint,repo_sk:string>
+
+(2) ColumnarToRow [codegen id : 2]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+
+(3) Filter [codegen id : 2]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+Condition : isnotnull(repo_sk#16)
+
+(4) Project [codegen id : 2]
+Output [2]: [repo_id#5L, repo_sk#16]
+Input [3]: [repo_id#5L, repo_sk#16, event_date#17]
+
+(5) Scan parquet 
+Output [2]: [repo_sk#728, owner_name#729]
+Batched: true
+Location: InMemoryFileIndex [hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/small_dimension]
+PushedFilters: [IsNotNull(repo_sk)]
+ReadSchema: struct<repo_sk:string,owner_name:string>
+
+(6) ColumnarToRow [codegen id : 1]
+Input [2]: [repo_sk#728, owner_name#729]
+
+(7) Filter [codegen id : 1]
+Input [2]: [repo_sk#728, owner_name#729]
+Condition : isnotnull(repo_sk#728)
+
+(8) BroadcastExchange
+Input [2]: [repo_sk#728, owner_name#729]
+Arguments: HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=1799]
+
+(9) BroadcastHashJoin [codegen id : 2]
+Left keys [1]: [repo_sk#16]
+Right keys [1]: [repo_sk#728]
+Join type: Inner
+Join condition: None
+
+(10) Project [codegen id : 2]
+Output [2]: [repo_id#5L, owner_name#729]
+Input [4]: [repo_id#5L, repo_sk#16, repo_sk#728, owner_name#729]
+
+(11) HashAggregate [codegen id : 2]
+Input [2]: [repo_id#5L, owner_name#729]
+Keys [1]: [owner_name#729]
+Functions [2]: [partial_count(1), partial_sum(cast(repo_id#5L as decimal(38,0)))]
+Aggregate Attributes [3]: [count#784L, sum#785, isEmpty#786]
+Results [4]: [owner_name#729, count#787L, sum#788, isEmpty#789]
+
+(12) Exchange
+Input [4]: [owner_name#729, count#787L, sum#788, isEmpty#789]
+Arguments: hashpartitioning(owner_name#729, 48), ENSURE_REQUIREMENTS, [plan_id=1805]
+
+(13) HashAggregate [codegen id : 3]
+Input [4]: [owner_name#729, count#787L, sum#788, isEmpty#789]
+Keys [1]: [owner_name#729]
+Functions [2]: [count(1), sum(cast(repo_id#5L as decimal(38,0)))]
+Aggregate Attributes [2]: [count(1)#779L, sum(cast(repo_id#5L as decimal(38,0)))#780]
+Results [3]: [owner_name#729, count(1)#779L AS events#777L, sum(cast(repo_id#5L as decimal(38,0)))#780 AS repo_sum#778]
+

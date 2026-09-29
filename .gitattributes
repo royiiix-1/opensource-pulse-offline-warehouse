@@ -1,1 +1,3 @@
 * text=auto eol=lf
+# Spark-generated plan text is kept verbatim so recorded SHA-256 values remain valid.
+evidence/public/plans/*.txt -text -whitespace

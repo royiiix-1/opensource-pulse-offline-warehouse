@@ -1,0 +1,1517 @@
+{
+  "files": [
+    {
+      "date": "2024-01-01",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-01-0.json.gz",
+      "compressed_bytes": 74527660,
+      "uncompressed_bytes": 503253982,
+      "line_count": 153619,
+      "sha256": "d68c3e2d4443c01a02e25e23fc7b809e34027b26257bb743adadc4aaac1b9308"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-01-1.json.gz",
+      "compressed_bytes": 88729236,
+      "uncompressed_bytes": 627268828,
+      "line_count": 169672,
+      "sha256": "5dfd1b390483a77110820ef623d2a9aff6d09d14604cd0a5e0fd1546b6fcf78c"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-01-2.json.gz",
+      "compressed_bytes": 65132382,
+      "uncompressed_bytes": 457837499,
+      "line_count": 130276,
+      "sha256": "aeeb854774c5dd4f6d5a2d885a40ee864881cffe167bc330d6a145fcaec2809f"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-01-3.json.gz",
+      "compressed_bytes": 74377258,
+      "uncompressed_bytes": 548688670,
+      "line_count": 136620,
+      "sha256": "3971bea55bed72f1b9103990e06888a264a113c190c47914374883f67f75922d"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-01-4.json.gz",
+      "compressed_bytes": 68279877,
+      "uncompressed_bytes": 494815665,
+      "line_count": 135528,
+      "sha256": "5cca17fe02ca3d41ee607b988b02215af243198fe52ced6bf0e12a90715bcc8e"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-01-5.json.gz",
+      "compressed_bytes": 65384704,
+      "uncompressed_bytes": 467374089,
+      "line_count": 137293,
+      "sha256": "35fea2b4bb850b1b2a0d5aec429c4ab06bc9fb5c4db64d2afa3fff3781bc9b90"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-01-6.json.gz",
+      "compressed_bytes": 64322704,
+      "uncompressed_bytes": 460580926,
+      "line_count": 147114,
+      "sha256": "eed475cba68157d183b8b465299085e16f5a3c9efe2804b96a3d039efa01be7c"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-01-7.json.gz",
+      "compressed_bytes": 64400937,
+      "uncompressed_bytes": 461340849,
+      "line_count": 142101,
+      "sha256": "97c8be10de7ce2c19f5c48d7af9be89ed37c3dcce93d2e2be75f4b2cbb24f5a8"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-01-8.json.gz",
+      "compressed_bytes": 67126087,
+      "uncompressed_bytes": 479913447,
+      "line_count": 147821,
+      "sha256": "0cf3a7d2e512da62e30e2b10187ddcc1137f5979389e1be2db1c17546a1be0d8"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-01-9.json.gz",
+      "compressed_bytes": 68134950,
+      "uncompressed_bytes": 491571364,
+      "line_count": 149533,
+      "sha256": "64fffb90967bf177a03064ad774ca6fd73a9e8039cfec2458e5664dc65254001"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-01-10.json.gz",
+      "compressed_bytes": 76275653,
+      "uncompressed_bytes": 544882458,
+      "line_count": 158214,
+      "sha256": "cb4473bedee1197002a3b5486ba7227a57d5bf6e4c6ca2ea5bd40e3d590b028d"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-01-11.json.gz",
+      "compressed_bytes": 74249715,
+      "uncompressed_bytes": 527191520,
+      "line_count": 160724,
+      "sha256": "7e1118950d0ffd5071f79c71d57149cdca7e5b7978bd64d84577140bf5adc7ca"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-01-12.json.gz",
+      "compressed_bytes": 79929154,
+      "uncompressed_bytes": 584184795,
+      "line_count": 225075,
+      "sha256": "f39b26cf50e920684b33d710a82605242f7293cd050c4d5ebe37c37c27d620c1"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-01-13.json.gz",
+      "compressed_bytes": 82147150,
+      "uncompressed_bytes": 586721413,
+      "line_count": 190568,
+      "sha256": "6730bd37cdffb21406d722e129ba72c3bc7182b1ebf05dcfe55f7a9877b3a62a"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-01-14.json.gz",
+      "compressed_bytes": 83412360,
+      "uncompressed_bytes": 586151642,
+      "line_count": 176699,
+      "sha256": "5611e1a5d7550b2b2cd871100e55b72ca241f3f6053d6961b7bf8cd9b036a0b0"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-01-15.json.gz",
+      "compressed_bytes": 83156149,
+      "uncompressed_bytes": 584821013,
+      "line_count": 180387,
+      "sha256": "6e7238413638697b239071d8b711b0d23a9334b0e67f215cf05c860857bc83d0"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-01-16.json.gz",
+      "compressed_bytes": 84299412,
+      "uncompressed_bytes": 591234552,
+      "line_count": 178135,
+      "sha256": "e13e747ded8e14fa1aca3076117f6bbfb58e969f2458079c8a79f5745ffd5d47"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-01-17.json.gz",
+      "compressed_bytes": 83863453,
+      "uncompressed_bytes": 586691744,
+      "line_count": 178980,
+      "sha256": "391764d75290f9873410e16772a16caf8c988370a0fd8dfbced04df40a90dbcd"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-01-18.json.gz",
+      "compressed_bytes": 85466019,
+      "uncompressed_bytes": 599681272,
+      "line_count": 185244,
+      "sha256": "ce9b7375667b5f75b32e7558644c746f1826f6c68ce6e326a11870b6a2696296"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-01-19.json.gz",
+      "compressed_bytes": 84221140,
+      "uncompressed_bytes": 594789315,
+      "line_count": 172448,
+      "sha256": "e48553f6c1ef4f18d24e96531f0d913415a76fdd85404d002ac97dbb9d91da3a"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-01-20.json.gz",
+      "compressed_bytes": 78267043,
+      "uncompressed_bytes": 558756616,
+      "line_count": 166962,
+      "sha256": "a4739da74bc0cbacad1568f2af5a945c16de1d9a66d1d73630299bcc8495bfda"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-01-21.json.gz",
+      "compressed_bytes": 75107676,
+      "uncompressed_bytes": 537615435,
+      "line_count": 159181,
+      "sha256": "33e8260f38cb3ee6bc54bcb290ea6e4045d01fe7ed605e9fc916a58ada061b67"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-01-22.json.gz",
+      "compressed_bytes": 72336609,
+      "uncompressed_bytes": 518215615,
+      "line_count": 151168,
+      "sha256": "d9be3994dd751b97a8f2b2b5b35a797cd120aacdcfadc28a941d9372f9c96610"
+    },
+    {
+      "date": "2024-01-01",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-01-23.json.gz",
+      "compressed_bytes": 68672809,
+      "uncompressed_bytes": 482855458,
+      "line_count": 146481,
+      "sha256": "0e4a6984ccbc436a137e5932d96f60c1806d8735c3fe20b343e3ebc992cd2c47"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-02-0.json.gz",
+      "compressed_bytes": 58458260,
+      "uncompressed_bytes": 418062029,
+      "line_count": 168486,
+      "sha256": "827519eca19086ea552b7ba0c464c8d1b14c6f51825e4ac51c83376b198448e4"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-02-1.json.gz",
+      "compressed_bytes": 45808941,
+      "uncompressed_bytes": 331202178,
+      "line_count": 128788,
+      "sha256": "bb9651df7aee2e9b57a511a7817dfda2743e70c2dfebcc6671f8ede7f8119193"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-02-2.json.gz",
+      "compressed_bytes": 57812939,
+      "uncompressed_bytes": 412628105,
+      "line_count": 147385,
+      "sha256": "dbcec00d55d31d6a446d37713462396dec2c3f77ad77ac5b721a095f68110ca8"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-02-3.json.gz",
+      "compressed_bytes": 55465082,
+      "uncompressed_bytes": 395659067,
+      "line_count": 145360,
+      "sha256": "2daec47a8cccee012014dd6b5040aa7eccd502c5d50c1482750fea229005c02c"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-02-4.json.gz",
+      "compressed_bytes": 52583716,
+      "uncompressed_bytes": 378206981,
+      "line_count": 142120,
+      "sha256": "96e5548669995e1094939551deae5d17c9f4847afd501e28da0cdc5366da8982"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-02-5.json.gz",
+      "compressed_bytes": 67962104,
+      "uncompressed_bytes": 478984169,
+      "line_count": 152134,
+      "sha256": "18943a764e68139c7af544d9831c660402b418622cc921a5609ea296458722eb"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-02-6.json.gz",
+      "compressed_bytes": 65797378,
+      "uncompressed_bytes": 469504812,
+      "line_count": 170508,
+      "sha256": "64a323810d19c085eea233c44084a23710683514bfee6174423d299876e0c739"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-02-7.json.gz",
+      "compressed_bytes": 76132193,
+      "uncompressed_bytes": 552997368,
+      "line_count": 183425,
+      "sha256": "a403996dea365ff64ed91bc8185ef6a485b04c11f450812b7aa143fb6f968c82"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-02-8.json.gz",
+      "compressed_bytes": 85393331,
+      "uncompressed_bytes": 616278505,
+      "line_count": 191137,
+      "sha256": "9ceeeed0ff248fcf9fe95350e87738c96655bd84768acbb0261c04c021c23c07"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-02-9.json.gz",
+      "compressed_bytes": 99851570,
+      "uncompressed_bytes": 732049214,
+      "line_count": 199450,
+      "sha256": "8d01a46f82f890f8e3bb8f001fbdf250c0572393c99ad02bd80dbe07284e0fdb"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-02-10.json.gz",
+      "compressed_bytes": 101116759,
+      "uncompressed_bytes": 737296807,
+      "line_count": 177751,
+      "sha256": "e944952cbf531dfb8c42c9f6e8e6d3ca7b07e6ce05de173f3287a1fcbb7ebdc9"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-02-11.json.gz",
+      "compressed_bytes": 90141920,
+      "uncompressed_bytes": 662152142,
+      "line_count": 175673,
+      "sha256": "dff34d4e0fc497e4453591f88ae807a3fb1e28ba4bd2275ef1508692e31dceae"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-02-12.json.gz",
+      "compressed_bytes": 94642793,
+      "uncompressed_bytes": 708201637,
+      "line_count": 237269,
+      "sha256": "2581e66068e697d041a863381bff1bf0e89218d7b319f5cf42e1917377d0fa62"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-02-13.json.gz",
+      "compressed_bytes": 97446476,
+      "uncompressed_bytes": 723085670,
+      "line_count": 207301,
+      "sha256": "b8692292de3080864f1089186dee538ed2421253f2be83bdf9cefcaea063ee72"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-02-14.json.gz",
+      "compressed_bytes": 106006760,
+      "uncompressed_bytes": 774962765,
+      "line_count": 212581,
+      "sha256": "34681dfffbf8377dfd8a0add99ec21a5c32b749fe60faa25764c33dabb7df35c"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-02-15.json.gz",
+      "compressed_bytes": 107171829,
+      "uncompressed_bytes": 790196863,
+      "line_count": 235608,
+      "sha256": "f873a373a960c3c0e28288c738d312c80eadb6787aa497665bf7b7049a6b033a"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-02-16.json.gz",
+      "compressed_bytes": 111589617,
+      "uncompressed_bytes": 815725871,
+      "line_count": 217109,
+      "sha256": "9dcce60debaaea4d35538ff633cb4b549b6546248bdedeb2bd1bdae0a8cf9746"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-02-17.json.gz",
+      "compressed_bytes": 98522139,
+      "uncompressed_bytes": 725704681,
+      "line_count": 195575,
+      "sha256": "f7d5e1b19ddaf98f8cdb9f84b0c854f8ad42a5b7855fcc535d6fdc860ec63978"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-02-18.json.gz",
+      "compressed_bytes": 93742363,
+      "uncompressed_bytes": 685455754,
+      "line_count": 192596,
+      "sha256": "5f7a4904acf66a33ebf1be8d135076ef903ae3716df0cf011af140fea1946a96"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-02-19.json.gz",
+      "compressed_bytes": 89618871,
+      "uncompressed_bytes": 655883422,
+      "line_count": 179501,
+      "sha256": "f5ad5913894d94b1d9e49d6fbb090c277f1a1a6a8a2480c783d2c97638ba6c60"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-02-20.json.gz",
+      "compressed_bytes": 83097256,
+      "uncompressed_bytes": 609740049,
+      "line_count": 169744,
+      "sha256": "36715b2b0ad0fd6d78044aab9d1f2371f5c5c9e85ccd64aa4b07b23ff157d38e"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-02-21.json.gz",
+      "compressed_bytes": 83030045,
+      "uncompressed_bytes": 613231205,
+      "line_count": 159536,
+      "sha256": "7df9fe63ff0c652327c9f0251e89c19f82a578c71d73989cbcdd67fd75d80823"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-02-22.json.gz",
+      "compressed_bytes": 74273410,
+      "uncompressed_bytes": 542912274,
+      "line_count": 153674,
+      "sha256": "285e4e32480581463307e4dc8d8fa0f0b96412f08a0d1a74b0900109c238b32d"
+    },
+    {
+      "date": "2024-01-02",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-02-23.json.gz",
+      "compressed_bytes": 67578341,
+      "uncompressed_bytes": 488229261,
+      "line_count": 161755,
+      "sha256": "f8a01d99ccb3d00afef3fa53b6b5f2dc41eeefd322d73e5b05689e589f6888bc"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-03-0.json.gz",
+      "compressed_bytes": 73678911,
+      "uncompressed_bytes": 527178892,
+      "line_count": 186803,
+      "sha256": "74e952dd71bb76f0764a5e2b57982f0974a924c5a5d66ae4b1cb44f04fa28b0d"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-03-1.json.gz",
+      "compressed_bytes": 70933898,
+      "uncompressed_bytes": 508998457,
+      "line_count": 191861,
+      "sha256": "cf7f4173545e0a172f0dedc3e4896c0959a88f73a5fa0e5c14efc6fd115d14df"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-03-2.json.gz",
+      "compressed_bytes": 64624549,
+      "uncompressed_bytes": 459648358,
+      "line_count": 166677,
+      "sha256": "d540318100012e7a4abfd9ae357433ebc6c2399d80b5f5f748f1a5218af59f1c"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-03-3.json.gz",
+      "compressed_bytes": 63756896,
+      "uncompressed_bytes": 453242799,
+      "line_count": 163153,
+      "sha256": "69c3dc5fa61b5c0938c8d17df0aa5c8577c863de4afbb2bdce26234d8c4a5ad1"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-03-4.json.gz",
+      "compressed_bytes": 60247296,
+      "uncompressed_bytes": 439244582,
+      "line_count": 158591,
+      "sha256": "608126447c3421cb8d1cbe4d4368d6f128d1a54819531075dc85d0e7f4bcddc5"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-03-5.json.gz",
+      "compressed_bytes": 80037251,
+      "uncompressed_bytes": 586108983,
+      "line_count": 172331,
+      "sha256": "74f057aefcdafc3cd37f49072bab33071b70777e3c3ea44ca8bd9f069cda1963"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-03-6.json.gz",
+      "compressed_bytes": 70056655,
+      "uncompressed_bytes": 510811572,
+      "line_count": 187004,
+      "sha256": "dcb47e0470c0a126ce242fbcc3b5fa41f6fe81164f49ff34a56a925c5a2ec2f9"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-03-7.json.gz",
+      "compressed_bytes": 75982021,
+      "uncompressed_bytes": 549717529,
+      "line_count": 188143,
+      "sha256": "7269f9c865ca75836a70dfa5d8c6027a74c684cf920a9874582302d3e12f10a6"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-03-8.json.gz",
+      "compressed_bytes": 86873259,
+      "uncompressed_bytes": 636450270,
+      "line_count": 201180,
+      "sha256": "d7599940dae4b60de066d59e2c344ba43c01589ab0e09b6fcdbd5b4cc6121984"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-03-9.json.gz",
+      "compressed_bytes": 95585290,
+      "uncompressed_bytes": 726582086,
+      "line_count": 203841,
+      "sha256": "ec14df2be161a1e6fe7486d84584751300246aede32b0c1f00ee2636827ac4f9"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-03-10.json.gz",
+      "compressed_bytes": 92435252,
+      "uncompressed_bytes": 702750319,
+      "line_count": 202394,
+      "sha256": "c0c254753703119baae1afc0badae67810460745146399ae0726c5f9d3f05d1c"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-03-11.json.gz",
+      "compressed_bytes": 89265974,
+      "uncompressed_bytes": 672909701,
+      "line_count": 207113,
+      "sha256": "7dcfeb137714e594d65deb83087b5eeab7a96ec4e059749ff6a024b807438087"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-03-12.json.gz",
+      "compressed_bytes": 94629205,
+      "uncompressed_bytes": 707109806,
+      "line_count": 253333,
+      "sha256": "399dbffb7cb1449e6d8e5564c44c7c296a330dac6d2c3ea705a8faa88bb9e834"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-03-13.json.gz",
+      "compressed_bytes": 100029104,
+      "uncompressed_bytes": 746412355,
+      "line_count": 232338,
+      "sha256": "3fa375ffb3d4824ae9bbe19f1546dae6988453f242fe730f76e093c46280baf2"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-03-14.json.gz",
+      "compressed_bytes": 106310719,
+      "uncompressed_bytes": 799016163,
+      "line_count": 231880,
+      "sha256": "5f0724e477e21d8c263e9d72c2222bb41aacace183e3cbdb1c345fb4d5f00b78"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-03-15.json.gz",
+      "compressed_bytes": 109695130,
+      "uncompressed_bytes": 817440741,
+      "line_count": 234867,
+      "sha256": "db51b05a24728d82057ccf0c6ff9113f080d840452b272693abb3b9bed7726f4"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-03-16.json.gz",
+      "compressed_bytes": 107585578,
+      "uncompressed_bytes": 801030296,
+      "line_count": 230059,
+      "sha256": "f951463b4772b1bafdc248a5424c190005b096080be0cc79b724e1eca5d0052e"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-03-17.json.gz",
+      "compressed_bytes": 100067141,
+      "uncompressed_bytes": 737110814,
+      "line_count": 222887,
+      "sha256": "18ee084d6cab0c9adb6ae898305a4d181520309e6487049cd468dbc11ea093c9"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-03-18.json.gz",
+      "compressed_bytes": 98695780,
+      "uncompressed_bytes": 728476595,
+      "line_count": 220617,
+      "sha256": "a794ecf0a34cf3ff2861dfea7044b8f4a26a379faa46b393d69a24b95cc22a86"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-03-19.json.gz",
+      "compressed_bytes": 94053071,
+      "uncompressed_bytes": 696947565,
+      "line_count": 202737,
+      "sha256": "77e9c7b1173ba23ee9340fe04fca81d2e638326504de051a0fa6ea789fff06a0"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-03-20.json.gz",
+      "compressed_bytes": 88057449,
+      "uncompressed_bytes": 646856542,
+      "line_count": 198676,
+      "sha256": "534e920d1d8faf6ae155bdb08c97dfbff89484e01f7617727cda6b25fcffd482"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-03-21.json.gz",
+      "compressed_bytes": 89624053,
+      "uncompressed_bytes": 652557328,
+      "line_count": 195214,
+      "sha256": "2ec9e0477389e0ef57cd9fc18efb8fc4af12d8bc391c26dbc9755990c9adad82"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-03-22.json.gz",
+      "compressed_bytes": 83577615,
+      "uncompressed_bytes": 592264767,
+      "line_count": 185022,
+      "sha256": "bf106b52874a58df3e22892baf3d97249916d7a4db1eefd5378766ffa666880c"
+    },
+    {
+      "date": "2024-01-03",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-03-23.json.gz",
+      "compressed_bytes": 76320398,
+      "uncompressed_bytes": 540393593,
+      "line_count": 177978,
+      "sha256": "da75169cc35d86e5b75129a438df0dedf90a5931b07cacf1277f814757192ba4"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-04-0.json.gz",
+      "compressed_bytes": 78414134,
+      "uncompressed_bytes": 558486357,
+      "line_count": 203997,
+      "sha256": "fc269472627939647111785e9afa1f8327d2cf7ff3989adcb3360803e59faf25"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-04-1.json.gz",
+      "compressed_bytes": 72343189,
+      "uncompressed_bytes": 513830866,
+      "line_count": 204315,
+      "sha256": "acd670afbb0f96bfa606840d3e1b113b9e6bbbb1c8189c0a7ea4975284b1fd25"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-04-2.json.gz",
+      "compressed_bytes": 68953953,
+      "uncompressed_bytes": 487265821,
+      "line_count": 182305,
+      "sha256": "b9d691238daba928dcab678064ee20a5446c353152c122b25535c05a9a0c74ed"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-04-3.json.gz",
+      "compressed_bytes": 64568657,
+      "uncompressed_bytes": 464693808,
+      "line_count": 180565,
+      "sha256": "0e2e7ffbba77a19683d1e8437d5a12dd7fc9bb613b732119f8f12d623ec8c56b"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-04-4.json.gz",
+      "compressed_bytes": 61447947,
+      "uncompressed_bytes": 440145531,
+      "line_count": 173077,
+      "sha256": "748d8c6494e8e291246f180ae498280ac27b43d5ac833e11f2b6df6e7d8a47f6"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-04-5.json.gz",
+      "compressed_bytes": 73580172,
+      "uncompressed_bytes": 529253158,
+      "line_count": 182018,
+      "sha256": "c8b1d7a1d958295a08780068fa4bfeb12c8c50d52c4e33d2a6878102c5975e87"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-04-6.json.gz",
+      "compressed_bytes": 69594146,
+      "uncompressed_bytes": 502517274,
+      "line_count": 199531,
+      "sha256": "efde6c64bb8f885107da3b9ab77ee72fe0060fbfdcbb5dc4dd295a5da626c66d"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-04-7.json.gz",
+      "compressed_bytes": 76837258,
+      "uncompressed_bytes": 561165513,
+      "line_count": 196264,
+      "sha256": "6d3a2b2ab278cdfb4b2f2b6fb5daa139254865fa22702a1cb16aa3eb3244cb65"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-04-8.json.gz",
+      "compressed_bytes": 90114692,
+      "uncompressed_bytes": 666730409,
+      "line_count": 200555,
+      "sha256": "2236aa5ee33f35255674c39325f8a85225c5a78e5646d064d0e03f4616714739"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-04-9.json.gz",
+      "compressed_bytes": 96795731,
+      "uncompressed_bytes": 721533790,
+      "line_count": 207223,
+      "sha256": "fae5c79f4d8288bc31253cc77afac75d3539dfd827987acc39a45820a0e03cc5"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-04-10.json.gz",
+      "compressed_bytes": 98385878,
+      "uncompressed_bytes": 733230199,
+      "line_count": 209987,
+      "sha256": "86bcd17ae57627cf08c9b26ebf82d6046602131d2f2a65711a20c2097240f513"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-04-11.json.gz",
+      "compressed_bytes": 91592869,
+      "uncompressed_bytes": 684586134,
+      "line_count": 205742,
+      "sha256": "f3c960c790066e17248faf6dbcb2291639d7ee9dbd89a12f090ab79828b80657"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-04-12.json.gz",
+      "compressed_bytes": 97961039,
+      "uncompressed_bytes": 714873459,
+      "line_count": 253263,
+      "sha256": "017d960a0e273a48f4962253009e63ce2858d87e571710052e6740999cb4060c"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-04-13.json.gz",
+      "compressed_bytes": 100724133,
+      "uncompressed_bytes": 754432244,
+      "line_count": 219766,
+      "sha256": "692dd24192349f6dbbe91d37a0ac4d8e172c614113bf71e87d1a2d9ffc787394"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-04-14.json.gz",
+      "compressed_bytes": 113267471,
+      "uncompressed_bytes": 843190844,
+      "line_count": 213614,
+      "sha256": "315ecaf148f12e0abcccf1714bc1843f4a6f7ad8750e1649f6fa953a4a778365"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-04-15.json.gz",
+      "compressed_bytes": 111897411,
+      "uncompressed_bytes": 840995242,
+      "line_count": 217098,
+      "sha256": "78bc9e5545441be6754ba9ed3ecbb43787f4489ebb42328ca59980ffbf954bf6"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-04-16.json.gz",
+      "compressed_bytes": 106470512,
+      "uncompressed_bytes": 809856841,
+      "line_count": 210930,
+      "sha256": "51cc00868a3ac96ea6ec6b3d19b654c6574722dfc43486c1a758a1f381effea8"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-04-17.json.gz",
+      "compressed_bytes": 101117762,
+      "uncompressed_bytes": 750875892,
+      "line_count": 196852,
+      "sha256": "93b908096368a2257ffcf7715d83dd96310ddadf0646578dfb8dd4bf4bf7e153"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-04-18.json.gz",
+      "compressed_bytes": 94871820,
+      "uncompressed_bytes": 700701815,
+      "line_count": 197001,
+      "sha256": "5f3c3ed0a4f2328ab82de9113d333fe50607da1f352e51d569629347c89c7e90"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-04-19.json.gz",
+      "compressed_bytes": 90024604,
+      "uncompressed_bytes": 671415468,
+      "line_count": 178803,
+      "sha256": "37476b69d429437185ec546e048e68788cf7f8a10f4a0f143bf16aa466c5ea2c"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-04-20.json.gz",
+      "compressed_bytes": 88049497,
+      "uncompressed_bytes": 649982954,
+      "line_count": 175704,
+      "sha256": "1acc6710cc70808390fc4ad5f05b5659df8af2f3b5c8810ff22e295567b2bb6f"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-04-21.json.gz",
+      "compressed_bytes": 90710401,
+      "uncompressed_bytes": 665254560,
+      "line_count": 175908,
+      "sha256": "3ed1e12fc496ed85ca045faf6ebe932a3fc0acb21da12c11ce2616ffbd3d2c94"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-04-22.json.gz",
+      "compressed_bytes": 85141104,
+      "uncompressed_bytes": 609714906,
+      "line_count": 186065,
+      "sha256": "2c6535faac305e55416b8cf4849134c37d582527e5563340b559795f83845d20"
+    },
+    {
+      "date": "2024-01-04",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-04-23.json.gz",
+      "compressed_bytes": 75335926,
+      "uncompressed_bytes": 528161773,
+      "line_count": 173082,
+      "sha256": "ab7c3ad609ab93d4f87f6e94efe6d522e9965440f33e1c7ffb3b3f59aa8825eb"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-05-0.json.gz",
+      "compressed_bytes": 77656967,
+      "uncompressed_bytes": 555105102,
+      "line_count": 194442,
+      "sha256": "b8e8b2db45668f0d301b7a74bf7d27e59c53ada5c6a1cb1d311054b2034db937"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-05-1.json.gz",
+      "compressed_bytes": 73375041,
+      "uncompressed_bytes": 531138822,
+      "line_count": 202637,
+      "sha256": "b0c69dfaa76b1fd55734bbf989fd687188f27427cfe1c0c80a2c962e5eadb8a1"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-05-2.json.gz",
+      "compressed_bytes": 66590020,
+      "uncompressed_bytes": 487731040,
+      "line_count": 172591,
+      "sha256": "f87da3e0a5e3f24dd9e52cba370db951561c664b2749d1e197315ce61c4fb3fe"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-05-3.json.gz",
+      "compressed_bytes": 62202438,
+      "uncompressed_bytes": 446985921,
+      "line_count": 167114,
+      "sha256": "84a8882992a71023161ef6b0bdd820adbce38929143e394a951bb8c205e39f56"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-05-4.json.gz",
+      "compressed_bytes": 61143633,
+      "uncompressed_bytes": 442736976,
+      "line_count": 168315,
+      "sha256": "85f41cfdf12cf313d2282e6f12a23a25334dcebb972ec510d0168a8b4711a02d"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-05-5.json.gz",
+      "compressed_bytes": 77895256,
+      "uncompressed_bytes": 556903596,
+      "line_count": 182546,
+      "sha256": "55dfe60d9a6559fad037a4d96874de2a1fc73512943b733e16da0620feddd7de"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-05-6.json.gz",
+      "compressed_bytes": 74138577,
+      "uncompressed_bytes": 535155466,
+      "line_count": 195307,
+      "sha256": "908b4eeb72997e53d626cba59f46eedd050a71ba2242895d99e507a7d355221a"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-05-7.json.gz",
+      "compressed_bytes": 79850140,
+      "uncompressed_bytes": 581310448,
+      "line_count": 197870,
+      "sha256": "c61196cd481b8955b5e1d2422ede08f0f29b9add427d63b69f0e3a990a0b0dfd"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-05-8.json.gz",
+      "compressed_bytes": 87654112,
+      "uncompressed_bytes": 645992699,
+      "line_count": 206093,
+      "sha256": "8c42e0574a9de1d159f0f13ea9f15527badd449203a429ea07c38c88e9f37356"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-05-9.json.gz",
+      "compressed_bytes": 99319406,
+      "uncompressed_bytes": 741979306,
+      "line_count": 226412,
+      "sha256": "caf648aec15c7a2b7a4f4feebd8070bb0a672b76655b7983764c0746ca1ca609"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-05-10.json.gz",
+      "compressed_bytes": 98430104,
+      "uncompressed_bytes": 738300808,
+      "line_count": 216400,
+      "sha256": "0d8b957ab07cb13c2b1d6c37bd1d2621d099fb9fe759e498e8bfd6e6aef76cda"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-05-11.json.gz",
+      "compressed_bytes": 93067009,
+      "uncompressed_bytes": 694174120,
+      "line_count": 212491,
+      "sha256": "f3a62aefca11a50d480e2d29088bf87d37fbee548a0184afa9be12d1e9d2a69f"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-05-12.json.gz",
+      "compressed_bytes": 91186683,
+      "uncompressed_bytes": 689981404,
+      "line_count": 255253,
+      "sha256": "a50685f9c0eb4e02df942ca02d5571fc31f01eff753c7073698049608925200c"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-05-13.json.gz",
+      "compressed_bytes": 102319323,
+      "uncompressed_bytes": 770427392,
+      "line_count": 236736,
+      "sha256": "11048f00105e7aac906261955bfa95ebda636cdaeba38deb17365b895325d639"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-05-14.json.gz",
+      "compressed_bytes": 119330811,
+      "uncompressed_bytes": 863956985,
+      "line_count": 236920,
+      "sha256": "a22e5097db3b2fc9869ea15117696ea812fa946b59be16c01f3030f79e032fe1"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-05-15.json.gz",
+      "compressed_bytes": 114634900,
+      "uncompressed_bytes": 847693918,
+      "line_count": 233355,
+      "sha256": "ad66874ef7107625e1edc1ed652f834651d2610a9a3c51d6c18507e34fad3e2a"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-05-16.json.gz",
+      "compressed_bytes": 108936207,
+      "uncompressed_bytes": 808544032,
+      "line_count": 229793,
+      "sha256": "ea7b17472bed4a5e30b4d0b7190934baf27be31e5cb2ab916bfc3f0e840b7609"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-05-17.json.gz",
+      "compressed_bytes": 110438950,
+      "uncompressed_bytes": 797727310,
+      "line_count": 223018,
+      "sha256": "6d574840d516f25361718a00fa09d6aacf9fa78aa3061ddd7cdd7b63f295a599"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-05-18.json.gz",
+      "compressed_bytes": 99915189,
+      "uncompressed_bytes": 731358455,
+      "line_count": 205533,
+      "sha256": "516ef95fbf2672e45f0c768836f36f8625d67a5f77fde86b574a85a1ccef43f3"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-05-19.json.gz",
+      "compressed_bytes": 87885213,
+      "uncompressed_bytes": 646060084,
+      "line_count": 175609,
+      "sha256": "67a1b6624a9421947d2dd28e4cb70b8374d0e36a5d887fd215e4a1bb2c0dcd80"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-05-20.json.gz",
+      "compressed_bytes": 81700976,
+      "uncompressed_bytes": 602343897,
+      "line_count": 167340,
+      "sha256": "2666ea3920e2faa5ec717f67b7c3088a28768edee6cc06839482b506bae40ec5"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-05-21.json.gz",
+      "compressed_bytes": 83009273,
+      "uncompressed_bytes": 611463053,
+      "line_count": 156574,
+      "sha256": "12e6207383d85f278a4c5f0831c25a996cfc70291ec7fb38f6f5a4c5fcc0c0a0"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-05-22.json.gz",
+      "compressed_bytes": 77910028,
+      "uncompressed_bytes": 559138441,
+      "line_count": 150097,
+      "sha256": "33e1ae9e9870b02a355674533c8e134d85b90494289a7948ed28354d7b117fae"
+    },
+    {
+      "date": "2024-01-05",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-05-23.json.gz",
+      "compressed_bytes": 67906222,
+      "uncompressed_bytes": 470766545,
+      "line_count": 133092,
+      "sha256": "b9e17aeb2f449114499d8929cb121242ec3ae7fbcd64b15e9b42f3f902f7d98e"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-06-0.json.gz",
+      "compressed_bytes": 66715453,
+      "uncompressed_bytes": 463829436,
+      "line_count": 157043,
+      "sha256": "a8928d85436a67999c934bd5d5222861a948989a0cfb3ffbcc36e653d0f1ea90"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-06-1.json.gz",
+      "compressed_bytes": 53916028,
+      "uncompressed_bytes": 386230565,
+      "line_count": 141968,
+      "sha256": "87a734ae99b88a61d5e3baffaed6d8dec5303db7b3c4873c11531112c1debccc"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-06-2.json.gz",
+      "compressed_bytes": 46956674,
+      "uncompressed_bytes": 320885533,
+      "line_count": 114785,
+      "sha256": "76ad3cec86144bb500bcd8de5dc13629f93adb199b7d41f5f14cdba3769d4ebe"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-06-3.json.gz",
+      "compressed_bytes": 42766408,
+      "uncompressed_bytes": 299030853,
+      "line_count": 116162,
+      "sha256": "8d37f9beeb4590b40d03c27b39e006b60117f748203302a6b9f1d649e8cf94f5"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-06-4.json.gz",
+      "compressed_bytes": 41205155,
+      "uncompressed_bytes": 289408398,
+      "line_count": 115620,
+      "sha256": "a9971b8550951ac05bd971122ba958e79027c0b9d95eae1a9beb52ac4b61ba76"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-06-5.json.gz",
+      "compressed_bytes": 51011550,
+      "uncompressed_bytes": 355558161,
+      "line_count": 126474,
+      "sha256": "791108c8d3a61af642fd2da68a71761b24f3eaf4a8c618bf5761b720feb01cfd"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-06-6.json.gz",
+      "compressed_bytes": 42148093,
+      "uncompressed_bytes": 295086764,
+      "line_count": 132407,
+      "sha256": "71f7c3ade056fcf6efa9e9d3d3c1a8737bd2d69b61614445794c57d5de80a8b1"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-06-7.json.gz",
+      "compressed_bytes": 45459609,
+      "uncompressed_bytes": 321509464,
+      "line_count": 129385,
+      "sha256": "9e184e1600d6ccb4c0372e0d0f0654dbbda7034702b90ced07e1947b1e5f21a2"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-06-8.json.gz",
+      "compressed_bytes": 44709179,
+      "uncompressed_bytes": 320121701,
+      "line_count": 128024,
+      "sha256": "366ede907bdf4420293cf27c105c710e291db14619e9392d11e39ab58aaa6dce"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-06-9.json.gz",
+      "compressed_bytes": 47895123,
+      "uncompressed_bytes": 342190854,
+      "line_count": 132479,
+      "sha256": "3eb462a0ab254a2091e2a5fe73981f3672c8b7114a87483a8795ce1b0573b921"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-06-10.json.gz",
+      "compressed_bytes": 50348982,
+      "uncompressed_bytes": 359284435,
+      "line_count": 137226,
+      "sha256": "87f95d49f3fab367f7303c8f903f54483869e9ca056b36f4c38859aed7f30025"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-06-11.json.gz",
+      "compressed_bytes": 50675029,
+      "uncompressed_bytes": 366256893,
+      "line_count": 137706,
+      "sha256": "82a690b7c33df0d326e04db3b82ddb9ba2e2d170b77992de9779dbda6519079b"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-06-12.json.gz",
+      "compressed_bytes": 56714044,
+      "uncompressed_bytes": 426092932,
+      "line_count": 198871,
+      "sha256": "ecc004f287abe74a9dfe9750a03aa29e455ccd8c4daf41a03b2e07b95541099a"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-06-13.json.gz",
+      "compressed_bytes": 57806180,
+      "uncompressed_bytes": 426810982,
+      "line_count": 169715,
+      "sha256": "69db4411595bcb0f4c71a458c206f71ebc1db6780ce0b6dbc7fd030b0602b4ca"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-06-14.json.gz",
+      "compressed_bytes": 60415323,
+      "uncompressed_bytes": 436188095,
+      "line_count": 158578,
+      "sha256": "f4fbc44190ef5cf3b553958ee5236df52e9da75a2a36d31be15bd76b3111e913"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-06-15.json.gz",
+      "compressed_bytes": 60196428,
+      "uncompressed_bytes": 434085839,
+      "line_count": 162017,
+      "sha256": "d74de3bb4ecb96b6a3d844765f28faadd286632875dbfda49c3ac03c80503ba6"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-06-16.json.gz",
+      "compressed_bytes": 62785523,
+      "uncompressed_bytes": 454163560,
+      "line_count": 166162,
+      "sha256": "7bdc0943def62af82aa577549f4f9bb735978f9704501187e212e4f30ae078fd"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-06-17.json.gz",
+      "compressed_bytes": 57656539,
+      "uncompressed_bytes": 412336725,
+      "line_count": 153425,
+      "sha256": "73ce67918a1534351d0af467d235b851a1725c2c9210b9f96f4e840d1376a007"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-06-18.json.gz",
+      "compressed_bytes": 55721080,
+      "uncompressed_bytes": 400406747,
+      "line_count": 153018,
+      "sha256": "d0d8e08b8033511c10cb863f1e5826936ccb15f2be8a06f825f502da3b6ce510"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-06-19.json.gz",
+      "compressed_bytes": 50638084,
+      "uncompressed_bytes": 374115324,
+      "line_count": 134208,
+      "sha256": "3608898443e36ae766fac9fe3059b7f4b721d7f4bb0f722a550346e997ca3b1a"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-06-20.json.gz",
+      "compressed_bytes": 48321227,
+      "uncompressed_bytes": 350570082,
+      "line_count": 131812,
+      "sha256": "d33079cb30bb3a467cce08ff2d33d5a8201b916688e887bd99a1e7861633b597"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-06-21.json.gz",
+      "compressed_bytes": 47295967,
+      "uncompressed_bytes": 338077205,
+      "line_count": 121743,
+      "sha256": "3c19786c7738d25c7b4bcf96378b3f0dfd23d568a62cd6a12e42c042e2d4a97d"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-06-22.json.gz",
+      "compressed_bytes": 42978261,
+      "uncompressed_bytes": 308683240,
+      "line_count": 113949,
+      "sha256": "a6c894e0759c518f0a454960fb8d883fe74426b88e526ae370c86e1115db7ff2"
+    },
+    {
+      "date": "2024-01-06",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-06-23.json.gz",
+      "compressed_bytes": 41365158,
+      "uncompressed_bytes": 288656239,
+      "line_count": 114752,
+      "sha256": "cd83176c98cd083f253a1226f273523de2bccda323dc44d9d90abac4c6b098a6"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 0,
+      "url": "https://data.gharchive.org/2024-01-07-0.json.gz",
+      "compressed_bytes": 50109930,
+      "uncompressed_bytes": 348357655,
+      "line_count": 158137,
+      "sha256": "f361bac34dc35148aa264d9f068cdeca8f4f8719eb75c8e6a695e89265607e3a"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 1,
+      "url": "https://data.gharchive.org/2024-01-07-1.json.gz",
+      "compressed_bytes": 45136572,
+      "uncompressed_bytes": 320135465,
+      "line_count": 161987,
+      "sha256": "4ff1f9e7b0e9f07a05a707a15d8c5dac4af54b4d01e40b550e95dd18c2981612"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 2,
+      "url": "https://data.gharchive.org/2024-01-07-2.json.gz",
+      "compressed_bytes": 40243931,
+      "uncompressed_bytes": 278186278,
+      "line_count": 132881,
+      "sha256": "d2b4f7f6f758ee2d91a7e521e97ce244b11fcee6130562feb37ff7a4720ac19e"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 3,
+      "url": "https://data.gharchive.org/2024-01-07-3.json.gz",
+      "compressed_bytes": 37919141,
+      "uncompressed_bytes": 268752979,
+      "line_count": 132288,
+      "sha256": "e982b774e6b99c696b0d8c46bd60459c42aed2ef8f78aee0fa1011c16bd2a798"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 4,
+      "url": "https://data.gharchive.org/2024-01-07-4.json.gz",
+      "compressed_bytes": 39248240,
+      "uncompressed_bytes": 279548681,
+      "line_count": 132625,
+      "sha256": "1f7ecd614ceb59ab7ec8adb08fb0ce65a6ebb2427dd6a12d9215f7982ee7fc30"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 5,
+      "url": "https://data.gharchive.org/2024-01-07-5.json.gz",
+      "compressed_bytes": 44777151,
+      "uncompressed_bytes": 312728375,
+      "line_count": 135850,
+      "sha256": "6ecf2fe8f5fa877c909c4a140267dc6905371ba8f89c71ba07425978d174f559"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 6,
+      "url": "https://data.gharchive.org/2024-01-07-6.json.gz",
+      "compressed_bytes": 42081477,
+      "uncompressed_bytes": 302160989,
+      "line_count": 150373,
+      "sha256": "560b8ba6dfa0d17fcd601c38bf2b1102f3b4704c189abffded9edb6c9f4d8d5f"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 7,
+      "url": "https://data.gharchive.org/2024-01-07-7.json.gz",
+      "compressed_bytes": 43857779,
+      "uncompressed_bytes": 313303612,
+      "line_count": 143675,
+      "sha256": "ecf9683ef24956ac6f4604ebb77eab6984ac4e75c7f178ad8469a0b2e820fa7c"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 8,
+      "url": "https://data.gharchive.org/2024-01-07-8.json.gz",
+      "compressed_bytes": 45379083,
+      "uncompressed_bytes": 322956252,
+      "line_count": 148931,
+      "sha256": "fcd81f05c6dba36f7ec14ddf41a202b4d8a272661d6ece7b6ca355427a2a7346"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 9,
+      "url": "https://data.gharchive.org/2024-01-07-9.json.gz",
+      "compressed_bytes": 48654109,
+      "uncompressed_bytes": 349776386,
+      "line_count": 155229,
+      "sha256": "dc3ff7887d55b3a5bdffc3a001a9a974f97257a2b7eb6dd53d5badfce1638e8f"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 10,
+      "url": "https://data.gharchive.org/2024-01-07-10.json.gz",
+      "compressed_bytes": 57332630,
+      "uncompressed_bytes": 409966415,
+      "line_count": 161035,
+      "sha256": "a8c6dade1b892a21cacffac1cd431c801db90c6e6953748799021d90e7b63778"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 11,
+      "url": "https://data.gharchive.org/2024-01-07-11.json.gz",
+      "compressed_bytes": 53143345,
+      "uncompressed_bytes": 383022728,
+      "line_count": 163075,
+      "sha256": "d6f74724b0c96986438a41313bc7f512af0e7ca171c4c6f42de68609e34f2697"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 12,
+      "url": "https://data.gharchive.org/2024-01-07-12.json.gz",
+      "compressed_bytes": 60400240,
+      "uncompressed_bytes": 448546587,
+      "line_count": 226982,
+      "sha256": "f6cf0270f587777314791afc2b0f8c7dc74bbb4ae71474483a58705ceedf3bdf"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 13,
+      "url": "https://data.gharchive.org/2024-01-07-13.json.gz",
+      "compressed_bytes": 60005375,
+      "uncompressed_bytes": 437536089,
+      "line_count": 195483,
+      "sha256": "7d74fb6e77bea53b4548a89b602f63819a962c5651c37f0dfef52fdb29f6b8d4"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 14,
+      "url": "https://data.gharchive.org/2024-01-07-14.json.gz",
+      "compressed_bytes": 61550114,
+      "uncompressed_bytes": 437651277,
+      "line_count": 184825,
+      "sha256": "b3d80da71490b785816b8129bac0f04d35e38a441da1ddb80234579b3baa6b50"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 15,
+      "url": "https://data.gharchive.org/2024-01-07-15.json.gz",
+      "compressed_bytes": 68173058,
+      "uncompressed_bytes": 482076443,
+      "line_count": 189501,
+      "sha256": "af4e744fefebd07c7d3e1c5eca91f92c67c843bbfaafedd7a5c595770ea53e52"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 16,
+      "url": "https://data.gharchive.org/2024-01-07-16.json.gz",
+      "compressed_bytes": 65814929,
+      "uncompressed_bytes": 474592506,
+      "line_count": 195737,
+      "sha256": "ab689576f9fa31a76ac5438ba7db115b0f7d53c087968dd1c54e52ebd0e525fa"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 17,
+      "url": "https://data.gharchive.org/2024-01-07-17.json.gz",
+      "compressed_bytes": 62270285,
+      "uncompressed_bytes": 448090957,
+      "line_count": 187620,
+      "sha256": "b9b8f6d9644f87d54b36ccfec875607b6c4241ace28d8703b8d6c57dfb8f3b19"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 18,
+      "url": "https://data.gharchive.org/2024-01-07-18.json.gz",
+      "compressed_bytes": 62998242,
+      "uncompressed_bytes": 455139956,
+      "line_count": 197007,
+      "sha256": "79fb00d59e1bfc3fc24f6891d80d48446db67a3932ac203663eef9acba97bf34"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 19,
+      "url": "https://data.gharchive.org/2024-01-07-19.json.gz",
+      "compressed_bytes": 67218403,
+      "uncompressed_bytes": 484225167,
+      "line_count": 176857,
+      "sha256": "75400904d0cdd26e02e9c07cb0fa887011a4f84ea80830ba41dcce43e8c79867"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 20,
+      "url": "https://data.gharchive.org/2024-01-07-20.json.gz",
+      "compressed_bytes": 57712530,
+      "uncompressed_bytes": 409900908,
+      "line_count": 173250,
+      "sha256": "a6320458f4c1c7820988d278e91ca491eb38981067ded77749122c1e76112d76"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 21,
+      "url": "https://data.gharchive.org/2024-01-07-21.json.gz",
+      "compressed_bytes": 53659206,
+      "uncompressed_bytes": 383523856,
+      "line_count": 162545,
+      "sha256": "587791e3b0d0bf0b90155914123c46a2934da874402f3a6f453ce73696c9e850"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 22,
+      "url": "https://data.gharchive.org/2024-01-07-22.json.gz",
+      "compressed_bytes": 51553662,
+      "uncompressed_bytes": 371706746,
+      "line_count": 155642,
+      "sha256": "9e0b6e529a83d82b826c10e180e64b153bfaf9e11094cc0230f01c6045841c26"
+    },
+    {
+      "date": "2024-01-07",
+      "hour": 23,
+      "url": "https://data.gharchive.org/2024-01-07-23.json.gz",
+      "compressed_bytes": 49602761,
+      "uncompressed_bytes": 352971068,
+      "line_count": 147068,
+      "sha256": "fc676a9ec42d81ec256a9c3c029648eba5a73100c106c0c7c69ba820b0981c1d"
+    }
+  ],
+  "scope": "Original input version metadata; no raw events"
+}

@@ -1,0 +1,40 @@
+== Physical Plan ==
+* HashAggregate (6)
++- Exchange (5)
+   +- * HashAggregate (4)
+      +- * Project (3)
+         +- * ColumnarToRow (2)
+            +- Scan parquet  (1)
+
+
+(1) Scan parquet 
+Output [4]: [event_type#251, repo_id#252L, actor_id#253L, source_hour#254]
+Batched: true
+Location: InMemoryFileIndex [hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/hourly]
+ReadSchema: struct<event_type:string,repo_id:bigint,actor_id:bigint>
+
+(2) ColumnarToRow [codegen id : 1]
+Input [4]: [event_type#251, repo_id#252L, actor_id#253L, source_hour#254]
+
+(3) Project [codegen id : 1]
+Output [3]: [event_type#251, repo_id#252L, actor_id#253L]
+Input [4]: [event_type#251, repo_id#252L, actor_id#253L, source_hour#254]
+
+(4) HashAggregate [codegen id : 1]
+Input [3]: [event_type#251, repo_id#252L, actor_id#253L]
+Keys [1]: [event_type#251]
+Functions [3]: [partial_count(1), partial_sum(cast(repo_id#252L as decimal(38,0))), partial_count(actor_id#253L)]
+Aggregate Attributes [4]: [count#583L, sum#584, isEmpty#585, count#586L]
+Results [5]: [event_type#251, count#587L, sum#588, isEmpty#589, count#590L]
+
+(5) Exchange
+Input [5]: [event_type#251, count#587L, sum#588, isEmpty#589, count#590L]
+Arguments: hashpartitioning(event_type#251, 48), ENSURE_REQUIREMENTS, [plan_id=1156]
+
+(6) HashAggregate [codegen id : 2]
+Input [5]: [event_type#251, count#587L, sum#588, isEmpty#589, count#590L]
+Keys [1]: [event_type#251]
+Functions [3]: [count(1), sum(cast(repo_id#252L as decimal(38,0))), count(actor_id#253L)]
+Aggregate Attributes [3]: [count(1)#576L, sum(cast(repo_id#252L as decimal(38,0)))#577, count(actor_id#253L)#578L]
+Results [4]: [event_type#251, count(1)#576L AS events#573L, sum(cast(repo_id#252L as decimal(38,0)))#577 AS repo_sum#574, count(actor_id#253L)#578L AS known_actor_events#575L]
+

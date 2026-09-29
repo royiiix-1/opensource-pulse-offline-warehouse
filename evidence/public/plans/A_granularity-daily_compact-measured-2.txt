@@ -1,0 +1,46 @@
+== Physical Plan ==
+* HashAggregate (7)
++- Exchange (6)
+   +- * HashAggregate (5)
+      +- * Project (4)
+         +- * Filter (3)
+            +- * ColumnarToRow (2)
+               +- Scan parquet  (1)
+
+
+(1) Scan parquet 
+Output [4]: [event_type#266, repo_id#267L, actor_id#268L, source_hour#269]
+Batched: true
+Location: InMemoryFileIndex [hdfs://127.0.0.1:19000/osp-offline/experiments/m4/20260929T095943Z7aebc84d/daily_compact]
+PushedFilters: [IsNotNull(source_hour), EqualTo(source_hour,12)]
+ReadSchema: struct<event_type:string,repo_id:bigint,actor_id:bigint,source_hour:int>
+
+(2) ColumnarToRow [codegen id : 1]
+Input [4]: [event_type#266, repo_id#267L, actor_id#268L, source_hour#269]
+
+(3) Filter [codegen id : 1]
+Input [4]: [event_type#266, repo_id#267L, actor_id#268L, source_hour#269]
+Condition : (isnotnull(source_hour#269) AND (source_hour#269 = 12))
+
+(4) Project [codegen id : 1]
+Output [3]: [event_type#266, repo_id#267L, actor_id#268L]
+Input [4]: [event_type#266, repo_id#267L, actor_id#268L, source_hour#269]
+
+(5) HashAggregate [codegen id : 1]
+Input [3]: [event_type#266, repo_id#267L, actor_id#268L]
+Keys [1]: [event_type#266]
+Functions [3]: [partial_count(1), partial_sum(cast(repo_id#267L as decimal(38,0))), partial_count(actor_id#268L)]
+Aggregate Attributes [4]: [count#415L, sum#416, isEmpty#417, count#418L]
+Results [5]: [event_type#266, count#419L, sum#420, isEmpty#421, count#422L]
+
+(6) Exchange
+Input [5]: [event_type#266, count#419L, sum#420, isEmpty#421, count#422L]
+Arguments: hashpartitioning(event_type#266, 48), ENSURE_REQUIREMENTS, [plan_id=844]
+
+(7) HashAggregate [codegen id : 2]
+Input [5]: [event_type#266, count#419L, sum#420, isEmpty#421, count#422L]
+Keys [1]: [event_type#266]
+Functions [3]: [count(1), sum(cast(repo_id#267L as decimal(38,0))), count(actor_id#268L)]
+Aggregate Attributes [3]: [count(1)#408L, sum(cast(repo_id#267L as decimal(38,0)))#409, count(actor_id#268L)#410L]
+Results [4]: [event_type#266, count(1)#408L AS events#405L, sum(cast(repo_id#267L as decimal(38,0)))#409 AS repo_sum#406, count(actor_id#268L)#410L AS known_actor_events#407L]
+
